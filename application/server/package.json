@@ -1,0 +1,16 @@
+{
+  "name": "@application/server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build"
+  },
+  "dependencies": {
+    "@packages/backend": "1.0.0",
+    "backpack-core": "^0.8.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6"
+  }
+}

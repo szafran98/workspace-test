@@ -1,0 +1,20 @@
+{
+  "name": "workspaces-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/**/*",
+    "application/**/*"
+  ],
+  "dependencies": {
+    "@application/server": "1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
